@@ -391,16 +391,14 @@ Enter the alias name:
 Got it! Successfully added FOOD as TECHNO EDGE's alias
 ------------------------------------------------------------------------------------------------------------
 ```
-<div markdown="block" class="alert alert-warning">
-:warning: Aliases cannot be used in the `Daily route feature`.
-</div>
-
 - When `add alias` command is called, NUSMaze will prompt for the `BLOCK` that you
   wish to set the alias for.
 
 - NUSMaze then prompts you to input a desired `ALIAS_NAME`.
 
-- Note that there cannot be multiple blocks sharing the same alias.
+- Note that there cannot be multiple blocks sharing the same alias.  
+
+:warning: Aliases cannot be used in the `Daily route feature`.
 
 #### 4.5.2 Viewing all aliases
 Lists all aliases that are currently active.<br>
@@ -476,6 +474,8 @@ Got it! Successfully added MONDAY's schedule!
 (1 represents Monday and 7 represents Sunday).
 
 :warning: There must be at least one block entered for the schedule.
+
+:warning: Aliases cannot be used in the `Daily route feature`.
 
 #### 4.6.2 Viewing daily route
 Shows the generated route for the schedule of the selected day, if applicable.<br>
